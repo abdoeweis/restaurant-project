@@ -1,0 +1,202 @@
+
+*{
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(66, 45, 5);
+}
+.container88{
+   
+    height: 100vh;
+}
+.nav-use{
+
+    background-color: rgb(80, 51, 8)!important; 
+  
+}
+
+
+
+
+
+/* ======Why Us===== */
+.box .box-content {
+    background-color: #1a1814;
+    transition: all 1s ease-in-out;
+    padding: 35px;
+    margin: 30px;
+    width: 20%;
+    display: inline-block;
+}
+
+.box {
+    justify-content: space-between;
+
+}
+
+.box .box-content:hover {
+    background-color: #cda45e;
+    color: #fff;
+}
+
+.why-us {
+    background-color: #0c0b09;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.box .box-content span {
+    color: #cda45e;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.box .box-content h4 {
+    color: #fff;
+    margin: 12px 0px;
+}
+
+.box .box-content p {
+    color: #aaaaaa;
+}
+
+.section-title h3 {
+    color: #cda45e;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: ui-serif;
+}
+
+.section-title p {
+    padding-top: 22px;
+    color: #aaaaaa;
+    font-size: 17px;
+    font-weight: 600;
+}
+@media only  screen and ( max-width:1030px) {
+    .why-us{
+        height: 100%!important;
+    }
+    .container .box .box-content{
+        height: 100%!important;
+        width: 100%!important;
+       
+   }
+}
+@media  only screen and (max-width:670px) {
+    .why-us{
+        height: 100%!important;
+    }
+    .container .box .box-content{
+         width: 100%!important;
+         height: 100%!important;
+    }
+    
+}
+/* ======Why Us===== */
+
+
+
+
+
+
+
+
+.dish{
+    box-sizing: border-box;
+    height: 80%;
+    width: 80%;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.paragraph h1{
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph p{
+
+    color: rgb(197, 138, 48); 
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container99{
+    width: 100%;
+    height: 90vh;
+  background-color: rgb(24, 16, 4);
+}
+.container99 h1{
+    color: rgb(197, 138, 48);
+     padding: 0px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.opinion{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+.card{
+    background-color: rgb(34, 23, 6);
+    color:white;
+    
+}
+.img-on{
+    height: 230px;
+}
+
+.opinion{
+    position: relative;
+}
+.img-on img{
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    width: 90px !important;
+    position: absolute;
+    right: 130px;
+    z-index: 2;
+
+}
+.info-person{
+    margin-left: 50px;
+    color: rgb(197, 138, 48);
+   
+}
+i{
+    color: rgb(197, 138, 48); 
+}
+.forma{
+    width: 70%;
+    border: solid;
+    background-color: rgb(24, 16, 4);
+
+    color: white;
+    padding: 30px 30px;
+}
+.btn{
+    color: white;
+    background-color: rgb(197, 138, 48);
+}
+ @media (max-width:500px) {
+     .container99{
+         margin-top: 50px;
+     }
+     .opinion{
+         margin-top: 60px;
+     }
+     
+ }
+
+button :hover{
+    background-color: rgb(209, 172, 127) !important;
+    color: rgb(44, 27, 1) !important;
+}

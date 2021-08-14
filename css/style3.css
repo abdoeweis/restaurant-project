@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(32, 18, 2);
+}
+.card{
+    background-color: rgb(228, 201, 153);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+.pa-gallary{
+    margin: 30px;
+    color: wheat;
+}
+/* =========footer style==== */
+
+.end-pa1 .myfooter {
+    background-color: rgb(27, 19, 3) !important;
+    margin-top: 100px;
+    width: 100%!important;
+}
+.myfooter{
+
+color: white;
+
+}
+.footing{
+    width: 100%!important;
+}
+.end-pa1 .card-body{
+    position: relative;
+}
+.end-pa1 .card-body .ships {
+    position: absolute;
+    top: 0px;
+    right: -313px;
+}
+.end-pa1 .card-body .mac{
+    position: absolute;
+    top: -159px;
+    right: 730px;
+    
+}
+/* =======footer style */

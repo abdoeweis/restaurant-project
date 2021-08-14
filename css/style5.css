@@ -1,0 +1,280 @@
+/* =====contact section==== */
+body{
+    background-color: #b98d3f;
+}
+.navbar{
+    background-color: #b98d3f;
+}
+.contact {
+    background-color: #0c0b09;
+    height: 165vh;
+}
+
+.contact .contact-title p {
+    padding-top: 22px;
+    color: #aaaaaa;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contact .contact-title h3 {
+    color: #cda45e;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: ui-serif;
+}
+
+.contact .location i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #cda45e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.contact .location h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.contact .location p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #bab3a6;
+}
+
+.contact .location .contact-right input {
+    width: 100%;
+    border: 1px solid #cda45e;
+    padding: 17px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+    color: white;
+    height: 44px;
+}
+
+.contact .location .contact-right .message-content {
+    width: 100%;
+    border: 1px solid #cda45e;
+    padding: 17px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+    color: white;
+}
+
+.contact .location .send-message {
+    text-align: center !important;
+    margin-top: 20px;
+    margin-left: 355px;
+}
+
+.contact .location .send-message span {
+    background: #cda45e;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px
+}
+
+@media (max-width:743px) {
+    .contact {
+        height: 260vh;
+    }
+    .contact .location .send-message {
+        margin-left: 23px;
+    }
+}
+
+@media (max-width:977px) {
+    .contact {
+        height: 250vh;
+    }
+    .contact .location .send-message {
+        margin-left: 10px;
+    }
+}
+
+
+/* =====contact section==== */
+
+
+/* =====footer==== */
+
+.footer {
+    background-color: #0c0b09;
+    padding: 60px 0 30px 0;
+    border-top: 1px solid #37332a;
+    border-bottom: 1px solid #28251f;
+}
+
+.footer-boxs {
+    color: #fff;
+}
+
+.footer-boxs ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-boxs ul li {
+    list-style: none;
+}
+
+.footer-boxs p {
+    font-size: 15px;
+    font-family: ui-sans-serif;
+    margin-left: 16px;
+}
+
+.footer-boxs h5 {
+    font-size: 23px;
+    margin-bottom: 13px;
+    color: #cda45e;
+    margin-left: 13px;
+}
+
+.footer-boxs h4 {
+    color: #cda45e;
+}
+
+.footer-boxs span {
+    margin-left: 16px;
+}
+
+.footer-boxs ul {
+    line-height: 33px;
+}
+
+.footer-social {
+    margin-top: 14px;
+    margin-left: 13px;
+}
+
+.footer-social a {
+    font-size: 18px;
+    display: inline-block;
+    background: #28251f;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.footer-social .facebook:hover {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.footer-social .twitter:hover {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.footer-social .instgram:hover {
+    background-color: #C13584;
+    color: #fff;
+}
+
+.footer-social .skype:hover {
+    background-color: #00aff0;
+    color: #fff;
+}
+
+.footer-boxs ul i {
+    color: #cda45e;
+    margin: 5px;
+}
+
+.footer-boxs ul a:hover {
+    color: #cda45e;
+}
+
+.subscribe-content {
+    margin-top: 30px;
+    margin-left: 10px;
+    background: #28251f;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #454035;
+}
+
+.subscribe-content .email {
+    border: 0;
+    padding: 4px;
+    width: calc(120% - 110px);
+    background: #28251f;
+    color: white;
+}
+
+.subscribe {
+    position: absolute;
+    top: -2px;
+    right: -45px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: #cda45e;
+    color: #fff;
+    border-radius: 50px;
+}
+
+@media (max-width:743px) {
+    .footer-boxs {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* =====footer==== */
+.end-pa1 .myfooter {
+    background-color: rgb(5, 4, 3) !important;
+    margin-top: 100px;
+    width: 100%!important;
+}
+.myfooter{
+
+color: white;
+
+}
+.footing{
+    width: 100%!important;
+}
+.end-pa1 .card-body{
+    position: relative;
+}
+.end-pa1 .card-body .ships {
+    position: absolute;
+    top: 0px;
+    right: -313px;
+}
+.end-pa1 .card-body .mac{
+    position: absolute;
+    top: -159px;
+    right: 730px;
+    
+}

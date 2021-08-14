@@ -1,0 +1,299 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(66, 45, 5);
+    overflow-x: hidden;
+}
+button :hover{
+    background-color: rgb(209, 172, 127) !important;
+    color: rgb(44, 27, 1) !important;
+}
+.navbar{
+    background-color: rgba(31, 18, 1, 0.938) !important;
+    
+}
+.hero-bg{
+    background-color:rgb(34, 21, 1);
+    opacity: 95%;
+    position: relative;
+}
+.hero-bg  img {
+ box-sizing: border-box;
+ background-size: cover;
+ width: 100%;
+ opacity: 40%;
+background-size: cover;
+
+ 
+}
+.hero-bg{
+   position: relative;
+
+}
+.hero-bg .paragra{
+    position: absolute;
+    top: 260px;
+    color: white;
+    left: 30%;
+
+}  
+
+@media (max-width:1200px) {
+    .paragra h1{
+        margin-right: 273px;
+        margin-top: 120px;
+    }
+    
+}
+
+
+
+
+.hero-bg .btn{
+    background-color: rgba(102, 62, 9, 0.938);
+color: white;
+}
+
+.hero-bg .btn :hover{
+    background-color: rgba(255, 228, 196, 0);
+    border: solid black;
+}
+.hero-bg a i{
+    position: absolute;
+   left: -57px;
+}
+
+
+
+
+
+/* ======Why Us===== */
+.box .box-content {
+    background-color: #1a1814;
+    transition: all 1s ease-in-out;
+    padding: 35px;
+    margin: 30px;
+    width: 20%;
+    display: inline-block;
+}
+
+.box {
+    justify-content: space-between;
+
+}
+
+.box .box-content:hover {
+    background-color: #cda45e;
+    color: #fff;
+}
+
+.why-us {
+    background-color: #0c0b09;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.box .box-content span {
+    color: #cda45e;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.box .box-content h4 {
+    color: #fff;
+    margin: 12px 0px;
+}
+
+.box .box-content p {
+    color: #aaaaaa;
+}
+
+.section-title h3 {
+    color: #cda45e;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: ui-serif;
+}
+
+.section-title p {
+    padding-top: 22px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+@media only  screen and ( max-width:1030px) {
+    .why-us{
+        height: 100%!important;
+    }
+    .container .box .box-content{
+        height: 100%!important;
+        width: 100%!important;
+       
+   }
+}
+@media  only screen and (max-width:670px) {
+    .why-us{
+        height: 100%!important;
+    }
+    .container .box .box-content{
+         width: 100%!important;
+         height: 100%!important;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/*====== Special Section===== */
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #1a1814;
+    background-color: #cda45e;
+    font-size: 18px;
+    font-family: ui-serif;
+    font-weight: 600;
+}
+
+.special {
+    height: 80vh;
+    background-color: #0c0b09;
+    padding-top: 100px
+}
+
+.special-title p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #aaaaaa;
+}
+
+.special-title h5 {
+    color: #cda45e;
+    font-size: 42px;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: ui-serif;
+    font-weight: 600;
+    /* border-right: 2px solid #cda45e; */
+    border-radius: 0;
+}
+
+.special-left h5 {
+    font-size: 31px;
+    color: #fff;
+    font-family: ui-serif;
+    font-weight: 600;
+}
+
+.special-left p {
+    color: #aaaaaa;
+}
+
+@media (max-width:988px) {
+    .special {
+        height: 280vh;
+    }
+    .brat {
+        margin-top: 40px;
+    }
+}
+
+
+/* =====Special section===== */
+
+
+
+
+
+
+
+
+
+/* ======Why Us===== */
+
+
+@media(max-width:1020px){
+    .hero-bg  .paragra{
+        top: 50px;
+   }
+   .hero-bg img{
+       height: 70vh;
+   }
+   .hero-bg h1{
+       font-size: 20px;
+   }
+   .hero-bg p{
+       font-size: 15px;
+   }
+   .hero-bg  button{
+       padding: 8px!important;
+       font-size: 16px !important ;
+   }
+   .hero-bg .a i{
+
+    color: white; 
+      background-color: rgba(189, 104, 1, 0.938) !important;
+       font-size: 20px !important;
+       padding: 20px !important;
+       border-radius: 50% !important;
+       margin-left: 81px !important;
+       top: 112px;
+       left: -81 !important;
+}
+}
+.container44{
+    width: 100%;
+  
+}
+.container44 .son-container{
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+    background-color: rgb(14, 8, 2);
+
+}
+.end-pa1 .card {
+    background-color: rgb(27, 19, 3) !important;
+    margin-top: 100px;
+}
+.card{
+
+color: white;
+
+}
+.end-pa1 .card-body{
+    position: relative;
+}
+.end-pa1 .card-body .ships {
+    position: absolute;
+    top: 0px;
+    right: -313px;
+}
+.end-pa1 .card-body .mac{
+    position: absolute;
+    top: -159px;
+    right: 730px;
+    
+}
